@@ -1,0 +1,18 @@
+<%- include ("partiejs/header.ejs")%>
+  <!-- inserimento dati del post-it-->
+ <form action="/inserisci" method="post">
+<br>
+   <br>
+ <label for="Nome" class="form-label">Name</label>
+          <input type="text" class="form-control" id="Nome" aria-describedby="emailHelp" name="Nome">
+        </div>
+        <div class="mb-3">
+          <label for="Nickname" class="form-label">Note</label>
+          <input type="text" class="form-control" id="Nickname" name="Nickname">
+        </div>
+  <div class="mb-3">
+          
+<button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+  <%- include ("partiejs/footer")%>
